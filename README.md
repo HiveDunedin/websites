@@ -1,4 +1,4 @@
-# HVIE Code Club web development course
+# HIVE Code Club web development course
 Websites designed and developed by students in the web development course
 
 ## Available websites
