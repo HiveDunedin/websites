@@ -5,6 +5,7 @@ Websites designed and developed by students in the web development course
 - Hamish
   - [Sailing](https://hivedunedin.github.io/websites/hamish/sailing)
   - [Rugby](https://hivedunedin.github.io/websites/hamish/rugby)
+  - [News](https://hivedunedin.github.io/websites/hamish/news)
 - [Caitlyn](https://hivedunedin.github.io/websites/caitlyn)
 - [Sam](https://hivedunedin.github.io/websites/sam)
 - [Jari](https://hivedunedin.github.io/websites/jari)
@@ -15,4 +16,7 @@ Websites designed and developed by students in the web development course
 - [Liam](https://hivedunedin.github.io/websites/liam)
 - [Luke](https://hivedunedin.github.io/websites/luke)
 - [Ethan](https://hivedunedin.github.io/websites/ethan)
-- [Joshua](https://hivedunedin.github.io/websites/joshua)
+- Joshua
+  - [Anime](https://hivedunedin.github.io/websites/joshua/)
+  - [Philosophy](https://hivedunedin.github.io/websites/joshua/philosophy-colorlib/)
+- [Connor](https://hivedunedin.github.io/websites/connor)
