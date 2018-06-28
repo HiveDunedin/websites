@@ -4,21 +4,20 @@
         <title>caitlyn's Phtogfe</title>
         <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
     </head>
-    <body>
-    <h1>McMillan's phtogfe</h1>
-    <hr>    
+    <body> 
+    <a name="top"></a>    
+    <h1>McMillan's phtogfe</h1>    
+    <hr>   
     <h2>Fitginfs</h2>      
-        <table> 
+        <table class="purple"> 
             <tr>
-                <th>caitlyn</th>
-                <th>david</th>
+                <th>Caitlyn</th>
+                <th>David</th>
             </tr>
-            
             <tr>
-                <td><img src="levf.jpg" class="dog" alt="dog">
+                <td><a href="#caitlyn"><img src="levf.jpg" class="dog" alt="dog"></a>
                     </td>   
-                <td><img src="rodos.jpg"
-                         class="dog" alt="cat"> 
+                <td><a href="#david"><img src="rodos.jpg"class="dog" alt="cat"></a> 
                     </td>
             </tr>
             
@@ -33,53 +32,101 @@
             </tr>
         </table>
         
-    <div id="wrapper">
+    <section>
+        <a name="caitlyn"></a>
+        <div id="wrapper">
         <h2>Caitlyn</h2>
         <p>fall fere to bras:</p>
         <ul>
-            <li>
+            <table>
+                <tr>
+                <td><li>
                 <a href="photo/ca_1.jpg" class="lightbox_trigger">
-                picture 1    
+                <img href="photo/ca_1.jpg" src="photo/ca_1.jpg" class="ading" alt="ading">
                 </a>
-            </li>
-            <li>
+            </li></td>
+            <td><li>
                 <a href="photo/ca_2.jpg" class="lightbox_trigger">
-                    picture 2   
+                <img href="photo/ca_2.jpg" src="photo/ca_2.jpg" class="ading" alt="ading"> 
                 </a>
-            </li> 
-            <li>
+            </li></td> 
+            <td><li>
                 <a href="photo/ca_3.jpg" class="lightbox_trigger">
-                    picture 3   
+                 <img href="photo/ca_3.jpg" src="photo/ca_3.jpg" class="ading" alt="ading">   
                 </a>
-            </li>   
-            <li>
+                </li></td> 
+            </tr>
+            <tr>
+            <td><li>
                 <a href="photo/ca_4.jpg" class="lightbox_trigger">
-                    picture 4   
+                 <img href="photo/ca_4.jpg" src="photo/ca_4.jpg" class="ading" alt="ading">   
                 </a>
-            </li> 
-            <li>
-                <a href="photo/ca_5.jpg" class="lightbox_trigger">
-                    picture 5   
-                </a>
-            </li> 
-            <li>
+            </li></td> 
+            <td><li>
                 <a href="photo/ca_6.jpg" class="lightbox_trigger">
-                    picture 6   
+                <img href="photo/ca_6.jpg" src="photo/ca_6.jpg" class="ading" alt="ading">   
                 </a>
-            </li> 
-        </ul>
+                </li></td>
+           </tr>
+        </table>
+            <a href="#top">Back to top of page</a>    
+        </ul>   
         </div> <i-- #/wraper --></i-->
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lBbSzQXQknw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <hr>
-        <p>the fgasis are sow go</p>
-         <style>
+   <section>
+       <a name="david"></a>
+        <div id="wrapper">
+        <h2>David</h2>
+        <p>fall fere to bras:</p>
+        <ul>
+            <table>
+                <tr>
+                <td><li>
+                <a href="photo/ca_1.jpg" class="lightbox_trigger">
+                <img href="photo/ca_1.jpg" src="photo/ca_1.jpg" class="ading" alt="ading">
+                </a>
+            </li></td>
+            <td><li>
+                <a href="photo/ca_2.jpg" class="lightbox_trigger">
+                <img href="photo/ca_2.jpg" src="photo/ca_2.jpg" class="ading" alt="ading"> 
+                </a>
+            </li></td> 
+            <td><li>
+                <a href="photo/ca_3.jpg" class="lightbox_trigger">
+                 <img href="photo/ca_3.jpg" src="photo/ca_3.jpg" class="ading" alt="ading">   
+                </a>
+                </li></td> 
+            </tr>
+            <tr>
+            <td><li>
+                <a href="photo/ca_4.jpg" class="lightbox_trigger">
+                 <img href="photo/ca_4.jpg" src="photo/ca_4.jpg" class="ading" alt="ading">   
+                </a>
+            </li></td> 
+            <td><li>
+                <a href="photo/ca_6.jpg" class="lightbox_trigger">
+                <img href="photo/ca_6.jpg" src="photo/ca_6.jpg" class="ading" alt="ading">   
+                </a>
+                </li></td>
+           </tr>
+        </table> 
+            <a href="#top">Back to top of page</a>
+        </ul>   
+        </div> <i-- #/wraper --></i-->     
+    
+    </section> 
+        <hr>     
+        <a href="#top">Back to top of page</a>
+    <style>  
+            li {
+                list-style-type: none;
+            }    
              table h5{
                  text-align:center;
              }
              hr{
                  border-bottom: 2px solid rgb(101, 109, 203);
-             }
+             } 
              h1{
                  text-align: center;
              }
@@ -95,11 +142,16 @@
                 padding: 5px;
             } 
         
+             .ading{
+                 width: 150px;
+                max-height: 150px; 
+                padding: 5px;    
+             }
          body{
             font-family: Arial; 
+             background-color: rgba(101, 109, 203, 0.35);
              margin:0; 
              padding:0; 
-             background:#efefef;
              text-align:center; /* used to center div in IE */ 
         }
         
@@ -128,8 +180,10 @@
              }
              
              #wrapper{
+                 
                  width:600px;
                  margin:0 auto; /*cenrters the div horizontally in all browsers (except IE)*/
+                 margin-bottom: 50px;
                  background:#fff;
                  text-align:left; /*rasets text alignment from body tag */ 
                  border:1px solid #ccc;
@@ -144,8 +198,7 @@
                  -webkit-box-shadow:0 0 5px #ccc;
              } 
     
-        table{
-             background-color: rgba(101, 109, 203, 0.35);
+        table.purple{
             color: rgb(0, 0, 0);
         }
         </style>
