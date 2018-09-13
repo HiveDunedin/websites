@@ -7,7 +7,7 @@ Websites designed and developed by students in the web development course
   - [Rugby](https://hivedunedin.github.io/websites/hamish/rugby)
   - [News](https://hivedunedin.github.io/websites/hamish/news)
 - [Caitlyn](https://hivedunedin.github.io/websites/caitlyn)
-- [Sam](https://hivedunedin.github.io/websites/sam)
+- [Sam](https://hivedunedin.github.io/websites/sam/home.html)
 - [Jari](https://hivedunedin.github.io/websites/jari)
 - Bear773
   - [Buttons](https://hivedunedin.github.io/websites/bear773/buttons)
